@@ -1,0 +1,14 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+models/trained/*
+models/scalers/*
+data/cache/*
+!data/cache/.gitkeep
+!models/trained/.gitkeep
+!models/scalers/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
